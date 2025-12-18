@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roshan Kumar | Data Scientist & Generative AI Engineer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional portfolio of Roshan Kumar, a Data Scientist & Generative AI Engineer specializing in Machine Learning, NLP, LLMs, and RAG architectures." />
+    <meta name="keywords" content="Roshan Kumar, Data Scientist, Generative AI Engineer, Machine Learning, NLP, LLM, RAG, Portfolio, Python, AI Engineer, Deep Learning" />
+    <meta name="author" content="Roshan Kumar" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Roshan Kumar | Data Scientist & Generative AI Engineer" />
+    <meta property="og:description" content="I build intelligent, data-driven AI systems using Machine Learning, LLMs, and RAG architectures to solve real-world problems." />
+    <meta property="og:url" content="https://roshankumar.dev/" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Roshan Kumar | Data Scientist & Generative AI Engineer" />
+    <meta name="twitter:description" content="I build intelligent, data-driven AI systems using Machine Learning, LLMs, and RAG architectures to solve real-world problems." />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              slate: {
+                850: '#151e2e',
+                950: '#020617',
+              }
+            },
+            animation: {
+              'gradient': 'gradient 8s linear infinite',
+            },
+            keyframes: {
+              gradient: {
+                '0%, 100%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'left center'
+                },
+                '50%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'right center'
+                },
+              },
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        /* Default to dark mode colors if JS fails, but classes will override */
+        background-color: #f8fafc;
+        color: #0f172a;
+      }
+      .dark body {
+        background-color: #020617;
+        color: #f8fafc;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        @apply bg-slate-100 dark:bg-slate-900;
+      }
+      ::-webkit-scrollbar-thumb {
+        @apply bg-slate-400 dark:bg-slate-700;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        @apply bg-slate-500 dark:bg-slate-600;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
